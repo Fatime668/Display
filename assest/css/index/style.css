@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+header{
+    background-image:url(https://inspirothemes.com/polo/homepages/hotel/images/4.jpg) ;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:200px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    
+}
+nav{
+    border-bottom:1px solid rgb(105, 104, 104);
+}
+nav ul{
+    display: flex;
+}
+nav .top-right ul li{
+    padding: 15px;
+    transition: .1s ease-in-out;
+    cursor: pointer;
+}
+
+nav .top-right ul li:nth-child(1):hover{
+    background-color: #5D82D1;
+}
+nav .top-right ul li:nth-child(2):hover{
+    background-color: #40BFF5;
+}
+nav .top-right ul li:nth-child(3):hover{
+    background-color: #EB5E4C;
+}
+nav .top-right ul li:nth-child(4):hover{
+    background-color: #E13138;
+}
+nav .top-right ul li:nth-child(5):hover{
+    background-color: #35C6EA;
+}
+nav .top-right ul li:nth-child(6):hover{
+    background-color: #F7659C;
+}
+nav .top-right ul li:nth-child(7):hover{
+    background-color: #EF4E41;
+}
+nav .top-right ul li:nth-child(8):hover{
+    background-color: #EF4E41;
+}
+nav .top-right ul li:nth-child(9):hover{
+    background-color: #E19642;
+}
+nav .top-left ul li a{
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+nav .top-right ul li a{
+    font-size: 15px;
+    color: white;
+}
+nav .top-left ul li{
+    margin: 0 16px 0 0;
+    cursor: pointer;
+}
+.navigation-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-menu .menu ul{
+    display: flex;
+}
+.navigation-menu .logo h1{
+    font-size: 50px;
+}
+.navigation-menu .logo h1 a{
+    color: white;
+}
+.menu ul li{
+    margin-left: 25px;
+}
+.menu ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+}
+sup{
+    color: #fff;
+}
